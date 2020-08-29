@@ -33,6 +33,16 @@
 	================================================== -->
     <link rel="icon" type="image/png" href="favicon.png">
 
+    <style>
+        #myshoes {
+            height: 50%;
+        }
+        
+        #myimg {
+            height: 50%;
+        }
+    </style>
+
 </head>
 
 <body id="top">
@@ -40,27 +50,7 @@
     <!-- header 
    ================================================== -->
     <header>
-        <!-- <div class="row">
 
-            <div class="top-bar">
-                <a class="menu-toggle" href="#"><span>Menu</span></a>
-
-                <div class="">
-                    <label for="home" class="align-center"><a href="index.html"></a>asdasd</label>
-
-                </div>
-
-                <nav id="main-nav-wrap">
-                    <ul class="main-navigation">
-                        <li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
-                        <li><a class="smoothscroll" href="#about" title="">About</a></li>
-                        <li><a class="smoothscroll" href="#portfolio" title="">Portfolio</a></li>
-                        <li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-
-        </div> -->
     </header>
     <!-- /header -->
 
@@ -80,10 +70,12 @@
 
                     <p class="intro-position">
                         <span>System Engineer</span>
-                        <span>Django Developer</span>
+                        <span>Web Developer</span>
                     </p>
 
                     <a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+                    <a class="button stroke smoothscroll" href="#portfolio" title="">My projects</a>
+
 
                 </div>
 
@@ -111,11 +103,13 @@
 
                 <div class="intro-info">
 
-                    <img src="images/profile-pic.jpg" alt="Profile Picture">
+                    <img src="" lt="Profile Picture">
 
-                    <p class="lead">Recently graduate with a degree in System engineering. I am a talented, ambitious and hardworking individual, with broad skills in solving problems. Furthermore, I am pretty good at handling multiple tasks on a daily basis competently
-                        and at working well under pressure. Looking to start my career in software development in a role where I can build on the skills gained at university and through the logical thinking I have been developing throughout my learning
-                        journey which goes beyond college.</p>
+                    <p class="lead">
+                        Recently graduate with a degree in System engineering. I am a talented, ambitious and hardworking individual, with broad skills in solving problems. Furthermore, I am pretty good at handling multiple tasks on a daily basis competently and at working well
+                        under pressure, able to effectively self-manage during independent projects, as well as collaborate as part of a productive team. . Looking to start my career in software development in a role where I can build on the skills gained
+                        at university. Willing to specialize in ecommerce development and study.
+                    </p>
                 </div>
 
             </div>
@@ -127,7 +121,7 @@
             <div class="col-six tab-full">
 
                 <h3>Profile</h3>
-                <p>Python programmer who uses django as a tool to develop some cool stuff.</p>
+                <p>System Engineer, Programmer, web (Django) developer, result oriented, learning lover.</p>
 
                 <ul class="info-list">
                     <li>
@@ -136,7 +130,7 @@
                     </li>
                     <li>
                         <strong>Birth Date:</strong>
-                        <span>September 28, 1996</span>
+                        <span>September 18, 1996</span>
                     </li>
                     <li>
                         <strong>Rol:</strong>
@@ -144,7 +138,7 @@
                     </li>
                     <li>
                         <strong>Website:</strong>
-                        <span>www.kardswebsite.com</span>
+                        <span>Alexanderfebres.github.io</span>
                     </li>
                     <li>
                         <strong>Email:</strong>
@@ -163,37 +157,37 @@
 
                 <ul class="skill-bars">
                     <li>
+                        <div class="progress percent85"><span>85%</span></div>
+                        <strong>Python, Django</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent70"><span>70%</span></div>
+                        <strong>HTML, CSS, Javascript</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent65"><span>65%</span></div>
+                        <strong>PostgresSQL, Mysql</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent60"><span>60%</span></div>
+                        <strong>Git and Github</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent70"><span>70%</span></div>
+                        <strong>Heroku, AWS S3</strong>
+                    </li>
+                    <li>
+                        <div class="progress "></div>
+                        <strong>Working on some others...</strong>
+                    </li>
+                    <!-- <li>
                         <div class="progress percent80"><span>80%</span></div>
-                        <strong>Django</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent80"><span>80%</span></div>
-                        <strong>Python</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent50"><span>50%</span></div>
-                        <strong>HTML5</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent50"><span>50%</span></div>
-                        <strong>CSS3</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent50"><span>50%</span></div>
-                        <strong>Javascript</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent90"><span>90%</span></div>
                         <strong>e-commerce development</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent80"><span>80%</span></div>
-                        <strong>SQL</strong>
-                    </li>
-                    <li>
+                    </li> -->
+                    <!-- <li>
                         <div class="progress percent50"><span>50%</span></div>
                         <strong>Heroku</strong>
-                    </li>
+                    </li> -->
 
                 </ul>
                 <!-- /skill-bars -->
@@ -205,7 +199,7 @@
         <div class="row button-section">
             <div class="col-twelve">
                 <!-- <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a> -->
-                <a href="#" title="Download CV" class="button button-primary">Download CV</a>
+                <a href="#" title="Download CV" class="button button-primary" id="downcv">Download CV</a>
             </div>
         </div>
 
@@ -234,17 +228,15 @@
 
                 <!-- portfolio-wrapper -->
                 <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
-
-
                     <div class="bgrid folio-item">
                         <div class="item-wrap">
-                            <img src="images/portfolio/myshoes.png" alt="MyShoes">
+                            <img src="images/portfolio/myshoes.png" alt="MyShoes" id='myshoes'>
                             <a href="#modal-01" class="overlay">
                                 <div class="folio-item-table">
                                     <div class="folio-item-cell">
                                         <h3 class="folio-title">MyShoes</h3>
                                         <span class="folio-types">
-		     					       	   E-commerce
+		     					       	   E-commerce website
 		     					        </span>
                                     </div>
                                 </div>
@@ -252,7 +244,21 @@
                         </div>
                     </div>
                     <!-- /folio-item -->
-
+                    <div class="bgrid folio-item">
+                        <div class="item-wrap">
+                            <img src="images/portfolio/blogcover2.png" alt="MyShoes" id='myimg'>
+                            <a href="#modal-02" class="overlay">
+                                <div class="folio-item-table">
+                                    <div class="folio-item-cell">
+                                        <h3 class="folio-title">Mygamesblog</h3>
+                                        <span class="folio-types">
+		     					       	   Blog  website
+		     					        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
 
                     <!-- modal popups - begin
 	            ============================================================= -->
@@ -264,12 +270,8 @@
 
                         <div class="description-box">
                             <h4>MyShoes</h4>
-                            <p>This is an ecommerce website where you can buy really nice shoes.</p>
-
-
-
-
-                            <div class="categories">Used Technologies: Python, Django, HTML, CSS, Javascript, PostgresSQL, Bootstrap, AWS S3, Stripe API, Heroku, GitHub </div>
+                            <p>MyShoes is an e-commerce website where you can buy really nice shoes. Take a look at the app to see all the functionalities.</p>
+                            <div class="categories">Used Technologies: Python, Django, HTML, CSS, Javascript, PostgresSQL, Bootstrap, AWS S3, Stripe API, Heroku, Git, GitHub </div>
                         </div>
 
                         <div class="link-box">
@@ -278,114 +280,28 @@
                         </div>
 
                     </div>
+
                     <!-- /modal-01 -->
 
                     <div id="modal-02" class="popup-modal slider mfp-hide">
 
                         <div class="media">
-                            <img src="images/portfolio/modals/m-shutterbug.jpg" alt="" />
+                            <img src="images/portfolio/modals/blog1.png" alt="" />
                         </div>
 
                         <div class="description-box">
-                            <h4>Shutterbug</h4>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-                            <div class="categories">Web Design</div>
+                            <h4>Mygamesblog</h4>
+                            <p>Mygamesblog is a website where you can read really nice game-related posts.</p>
+                            <div class="categories">Used Technologies: Python, Django, HTML, CSS, Javascript, PostgresSQL, Bootstrap, AWS S3, Heroku, Git, GitHub </div>
                         </div>
 
                         <div class="link-box">
-                            <a href="http://www.behance.net">Details</a>
+                            <a href="https://mygamesblog.herokuapp.com/" target="_blank">Go to app</a>
                             <a href="#" class="popup-modal-dismiss">Close</a>
                         </div>
 
                     </div>
                     <!-- /modal-02 -->
-
-                    <div id="modal-03" class="popup-modal slider mfp-hide">
-
-                        <div class="media">
-                            <img src="images/portfolio/modals/m-clouds.jpg" alt="" />
-                        </div>
-
-                        <div class="description-box">
-                            <h4>Clouds</h4>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-                            <div class="categories">Web Design</div>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="http://www.behance.net">Details</a>
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                        </div>
-
-                    </div>
-                    <!-- /modal-03 -->
-
-                    <div id="modal-04" class="popup-modal slider mfp-hide">
-
-                        <div class="media">
-                            <img src="images/portfolio/modals/m-beetle.jpg" alt="" />
-                        </div>
-
-                        <div class="description-box">
-                            <h4>Beetle</h4>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-                            <div class="categories">Branding</div>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="http://www.behance.net">Details</a>
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                        </div>
-
-                    </div>
-                    <!-- /modal-04 -->
-
-                    <div id="modal-05" class="popup-modal slider mfp-hide">
-
-                        <div class="media">
-                            <img src="images/portfolio/modals/m-lighthouse.jpg" alt="" />
-                        </div>
-
-                        <div class="description-box">
-                            <h4>Lighthouse</h4>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-                            <div class="categories">Web Development</div>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="http://www.behance.net">Details</a>
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                        </div>
-
-                    </div>
-                    <!-- /modal-05 -->
-
-                    <div id="modal-06" class="popup-modal slider mfp-hide">
-
-                        <div class="media">
-                            <img src="images/portfolio/modals/m-salad.jpg" alt="" />
-                        </div>
-
-                        <div class="description-box">
-                            <h4>Salad</h4>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-                            <div class="categories">Branding</div>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="http://www.behance.net">Details</a>
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                        </div>
-
-                    </div>
-
-                    <!-- modal popups - end
-	            ============================================================= -->
 
                 </div>
                 <!-- /portfolio-wrapper -->
@@ -414,10 +330,9 @@
                     <i class="icon-pin"></i>
                 </div>
 
-                <h5>Address</h5>
+                <h5>Where to find me</h5>
 
-                <p>
-                    Arequipa, paucarpata campo marte </p>
+                <p>Peru, arequipa</p>
 
             </div>
 
@@ -441,14 +356,18 @@
                 </div>
 
                 <h5>Call Me At</h5>
+                <a id="godwncv" href="#downcv">
+                    <p>Download cv for phone number</p>
+                </a>
 
-                <p>Phone: +51 + 991159663
-                </p>
+
+
 
             </div>
 
         </div>
         <!-- /contact-info -->
+
 
     </section>
     <!-- /contact -->
