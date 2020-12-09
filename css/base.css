@@ -876,5 +876,9 @@ textarea {
     color: #a83240;
 }
 
+.dcv-text:hover {
+    color: #61565f;
+}
+
 
 /*# sourceMappingURL=base.css.map */
