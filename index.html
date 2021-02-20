@@ -99,9 +99,9 @@
                     <img src="images/006u.jpg" lt="Profile Picture">
 
                     <p class="lead">
-                        Recently graduate with a degree in System engineering. I am a talented, ambitious and hardworking individual, with broad skills in solving problems. Furthermore, I am pretty good at handling multiple tasks on a daily basis competently and at working well
-                        under pressure, able to effectively self-manage during independent projects, as well as collaborate as part of a productive team. . Looking to start my career in software development in a role where I can build on the skills gained
-                        at university. Willing to specialize in ecommerce development and study.
+                        Graduate with a degree in System engineering. I am a talented, ambitious and hardworking individual, with broad skills in solving problems. Furthermore, I am pretty good at handling multiple tasks on a daily basis competently and at working well under
+                        pressure, able to effectively self-manage during independent projects, as well as collaborate as part of a productive team. . Looking to start my career in software development in a role where I can build on the skills gained at
+                        university.
                     </p>
 
                 </div>
@@ -177,8 +177,7 @@
 
         <div class="row button-section">
             <div class="col-twelve">
-                <!-- <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a> -->
-                <a href="https://www.mediafire.com/file/r2nn1jezcfnkp2x/alexcsml.pdf/file" title="Download CV" class="button button-primary" id="downcv" target="_blank">Download CV</a>
+                <a href="https://www.mediafire.com/file/1l7coj7trx3v1qh/alexmlfcv.pdf/file" title="Download CV" class="button button-primary" id="downcv" target="_blank">Download CV</a>
             </div>
         </div>
 
@@ -207,10 +206,27 @@
 
                 <!-- portfolio-wrapper -->
                 <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+                    <!-- /folio-item -->
+                    <div class="bgrid folio-item">
+                        <div class="item-wrap">
+                            <img src="images/portfolio/groceriesecommerce.png" alt="Groceries Ecommerce Cover" id='myimg'>
+                            <a href="#modal-01" class="overlay">
+                                <div class="folio-item-table">
+                                    <div class="folio-item-cell">
+                                        <h3 class="folio-title">Groceriesecommerce</h3>
+                                        <span class="folio-types">
+		     					       	   E-commerce website
+		     					        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /folio-item -->
                     <div class="bgrid folio-item">
                         <div class="item-wrap">
                             <img src="images/portfolio/myshoes.png" alt="MyShoes" id='myshoes'>
-                            <a href="#modal-01" class="overlay">
+                            <a href="#modal-02" class="overlay">
                                 <div class="folio-item-table">
                                     <div class="folio-item-cell">
                                         <h3 class="folio-title">MyShoes</h3>
@@ -223,41 +239,31 @@
                         </div>
                     </div>
 
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/portfolio/ecommercedr1.png" alt="ecommercedr" id='myshoes'>
-                            <a href="#modal-03" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Ecommercedr</h3>
-                                        <span class="folio-types">
-		     					       	   E-commerce website
-		     					        </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+                    <!-- modal popups - begin =========================7==================================== -->
 
-                    <!-- /folio-item -->
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/portfolio/blogcover2.png" alt="MyShoes" id='myimg'>
-                            <a href="#modal-02" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Mygamesblog</h3>
-                                        <span class="folio-types">
-		     					       	   Blog  website
-		     					        </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- modal popups - begin ============================================================= -->
+                    <!-- /modal-01 -->
                     <div id="modal-01" class="popup-modal slider mfp-hide">
+
+                        <div class="media">
+                            <img src="images/portfolio/modals/modalgroceries.png" alt="" />
+                        </div>
+
+                        <div class="description-box">
+                            <h4>Groceriesecommerce</h4>
+                            <p> E-commerce website developed using React.js in the frontend and Django Rest Framework for the API.</p>
+                            <div class="categories">Tecnologias Usadas: React.js, Redux, JavaScript, Django, DRF, Python, PostgresSQL, AWS S3, Heroku, Docker, NGINX, Ant Design, CSS</div>
+                        </div>
+
+                        <div class="link-box">
+                            <a href="https://groceriesecommerce.herokuapp.com/" target="_blank">Llevame a la app</a>
+                            <a href="#" class="popup-modal-dismiss">Cerrar</a>
+                        </div>
+
+                    </div>
+                    <!-- /modal-01 -->
+
+                    <!-- /modal-02 -->
+                    <div id="modal-02" class="popup-modal slider mfp-hide">
 
                         <div class="media">
                             <img src="images/portfolio/modals/myshoes.png" alt="" />
@@ -275,48 +281,7 @@
                         </div>
 
                     </div>
-
                     <!-- /modal-02 -->
-
-                    <div id="modal-02" class="popup-modal slider mfp-hide">
-
-                        <div class="media">
-                            <img src="images/portfolio/modals/blog1.png" alt="" />
-                        </div>
-
-                        <div class="description-box">
-                            <h4>Mygamesblog</h4>
-                            <p>Mygamesblog is a website where you can read really nice game-related posts. Take a look at the app to see all the functionalities.</p>
-                            <div class="categories">Used Technologies: Python, Django, HTML, CSS, Javascript, PostgresSQL, Bootstrap, AWS S3, Heroku, Git, GitHub </div>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="https://mygamesblog.herokuapp.com/" target="_blank">Go to app</a>
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                        </div>
-
-                    </div>
-                    <!-- /modal-02 -->
-
-                    <div id="modal-03" class="popup-modal slider mfp-hide">
-
-                        <div class="media">
-                            <img src="images/portfolio/modals/ecommercedr1.png" alt="" />
-                        </div>
-
-                        <div class="description-box">
-                            <h4>Ecommercedr</h4>
-                            <p>This is an e-commerce website developed using react to consume an api created using the django restframework. Take a look at the app to see all the functionalities.</p>
-                            <div class="categories">Used Technologies: Django, RestFramework, React.js, Redux, Semantic UI React, Docker, Docker-Compose, Nginx, Postgres, Stripe API, AWS S3, Heroku. </div>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="https://ecommercedrfront.herokuapp.com/" target="_blank">Go to app</a>
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                        </div>
-
-                    </div>
-
                 </div>
                 <!-- /portfolio-wrapper -->
 
@@ -333,9 +298,6 @@
     <!-- contact
    ================================================== -->
     <section id="contact">
-
-
-
         <div class="row contact-info">
 
             <div class="col-four tab-full">
@@ -374,39 +336,25 @@
                     <p class="dcv-text">Download cv for phone number</p>
                 </a>
 
-
-
-
             </div>
-
         </div>
         <!-- /contact-info -->
-
-
     </section>
     <!-- /contact -->
-
-
     <!-- footer
    ================================================== -->
-
     <footer>
         <div class="row">
-
             <div class="col-three tab-full pull-right social">
-
                 <ul class="footer-social">
                     <li><a href="https://www.facebook.com/hermiloalexander.febresbarreto/" target="_blank"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="https://github.com/alexanderfebres" target="_blank"><i class="fa fa-github"></i></a></li>
                     <li><a href="https://www.linkedin.com/in/alexanderfebresth/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
-
             </div>
-
             <div id="go-top">
                 <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
             </div>
-
         </div>
         <!-- /row -->
     </footer>
